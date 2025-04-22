@@ -32,51 +32,67 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
-                      </li>                      
+                    </li>                      
                 </ul>
             </div>
         </div>
     </nav>
     
     <div class="container mt-4">
-        <h1>Welcome to your favorit sport site!</h1>
-        <p>Here you can read the latest news, results and more!</p>
+        <h1>Welcome to your favorite sports site!</h1>
+        <p>Here you can read the latest news, results, and more!</p>
         <p>Donec ac eleifend tortor. Mauris accumsan sapien sit amet dui dignissim,<br> a egestas magna elementum. Sed eu aliquam mauris. <br>
             Duis aliquet lectus vel nisi venenatis, eget laoreet mi feugiat. Praesent accumsan sem tellus, at pellentesque augue aliquam sed.
         </p>
     </div>
-    <!-- Contact Modal -->
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header bg-dark text-white">
-          <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-  
-        <div class="modal-body">
-          <form id="contactForm">
-            <div class="mb-3">
-              <label for="emailInput" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="emailInput" required>
-            </div>
-            <div class="mb-3">
-              <label for="messageInput" class="form-label">Message</label>
-              <textarea class="form-control" id="messageInput" rows="4" required></textarea>
-            </div>
-            <div class="text-end">
-              <button type="submit" class="btn btn-primary">Send</button>
-            </div>
-          </form>
-          <div id="thankYouMessage" class="text-center d-none">
-            <h5 class="mt-3">Thank you for reaching out!</h5>
-            <p>We'll get back to you as soon as possible.</p>
-          </div>
-        </div>
-      </div>
+
+
+    <div class="container mt-4">
+        <h2>About Us</h2>
+        <p>Welcome to Sport Central! We are passionate about sports and dedicated to bringing you the latest news...</p>
     </div>
-  </div>
-  
+
+    <div class="container mt-4">
+        <h2>Latest News</h2>
+        <div class="list-group">
+            <a href="news.html" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">Breaking: The Football World Cup Teams are Finalized!</h5>
+                <p class="mb-1">The official line-ups for the upcoming World Cup are out. Here's a breakdown of the teams.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageInput" class="form-label">Message</label>
+                            <textarea class="form-control" id="messageInput" rows="4" required></textarea>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                    <div id="thankYouMessage" class="text-center d-none">
+                        <h5 class="mt-3">Thank you for reaching out!</h5>
+                        <p>We'll get back to you as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts.js"></script>
 </body>
