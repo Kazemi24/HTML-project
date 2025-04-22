@@ -39,38 +39,42 @@
     </nav>
 
     <div class="container mt-4">
-        <h1 class="mb-4">Here is the latest news about sports!</h1>
-
-        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="mb-4 text-center">Latest Sports News</h1>
+        <p class="lead text-center">
+            Stay updated with the most exciting moments from the world of sports – from thrilling victories to emotional retirements and intense matchups!
+        </p>
+    
+        <div id="newsCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="pokal.png" class="d-block w-100" alt="News 1">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
-                        <h5>Bildrubrik 1</h5>
-                        <p>Här kommer en kort text eller beskrivning om nyheten.</p>
+                    <img src="pokal.png" class="d-block mx-auto carousel-img" alt="Team lifting trophy">
+                    <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                        <h5>Victory Celebrations After Cup Win</h5>
+                        <p>The crowd erupted as the team lifted the trophy after a dramatic final. Fans celebrated a well-deserved victory.</p>
                     </div>
                 </div>
-
+    
                 <div class="carousel-item">
-                    <img src="hockey.png" class="d-block w-100" alt="News 2">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
-                        <h5>Bildrubrik 2</h5>
-                        <p>Här är en annan spännande nyhet!</p>
+                    <img src="hockey.png" class="d-block mx-auto carousel-img" alt="Hockey player retiring">
+                    <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                        <h5>Legend Bids Farewell to the Ice</h5>
+                        <p>After a remarkable 20-year career, the hockey star retires. Teammates and fans pay tribute to his legacy.</p>
                     </div>
                 </div>
-
+    
                 <div class="carousel-item">
-                    <img src="path/to/your-image3.jpg" class="d-block w-100" alt="News 3">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
-                        <h5>Bildrubrik 3</h5>
-                        <p>Senaste nytt inom din favoritsport.</p>
+                    <img src="ufc.avif" class="d-block mx-auto carousel-img" alt="UFC fighters face-off">
+                    <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+                        <h5>Intense Face-off Before the Big Fight</h5>
+                        <p>Two UFC giants square off ahead of this weekend’s main event. Anticipation is high as fans await the clash.</p>
                     </div>
                 </div>
+    
             </div>
-
+    
             <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous </span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -78,7 +82,7 @@
             </button>
         </div>
     </div>
-
+    
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts.js"></script>
 </body>

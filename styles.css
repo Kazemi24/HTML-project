@@ -27,3 +27,48 @@ body {
     border-radius: 0.25rem;
     pointer-events: none;
 }
+
+.carousel-img {
+    max-height: 450px;
+    object-fit: contain; 
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    font-size: 0.9rem;
+    bottom: 20px;
+    left: 33%;
+    right: 15%;
+    padding: 10px;
+    width: 450px;
+
+}
+
+.carousel-caption h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        display: block !important;
+        font-size: 0.85rem;
+        padding: 8px;
+        left: 3%;
+        right: 10%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
