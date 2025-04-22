@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
