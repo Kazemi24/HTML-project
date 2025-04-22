@@ -1,0 +1,22 @@
+{
+    "name": "html-project",
+    "version": "1.0.0",
+    "description": "A simple HTML project",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server .",
+        "build": "echo 'No build step defined'"
+    },
+    "keywords": [],
+    "author": "Baset Kazemi",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "live-server": "^1.2.2",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.1.4"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.5"
+    }
+}
