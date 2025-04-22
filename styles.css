@@ -54,8 +54,29 @@ body {
     font-size: 0.9rem;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 2; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%;
+    padding: 10px;
+}
 
-@media (max-width: 768px) {
+.team-name {
+    color: #212529;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .team-name:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
     .carousel-caption {
         display: block !important;
         font-size: 0.85rem;
@@ -72,15 +93,3 @@ body {
         font-size: 0.8rem;
     }
 }
-
-.carousel-control-prev,
-.carousel-control-next {
-    z-index: 2; 
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); 
-    border-radius: 50%;
-    padding: 10px;
-}
-
